@@ -19,7 +19,9 @@
   Underwriters supply capital. Integrators embed cover. Policy lifecycle logic is enforced onchain.
 </p>
 
-![GitHub Metrics](./github-metrics.svg)
+<p align="center">
+  <img src="./github-metrics.svg" alt="GitHub Metrics" />
+</p>
 
 ## Platform
 
