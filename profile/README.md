@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="../profile-assets/logo.png" alt="LayerCover logo" width="96" />
+  <img src="../profile-assets/logo.png" alt="LayerCover logo" width="104" />
 </p>
 
 <h1 align="center">LayerCover</h1>
 
 <p align="center">
-  Programmable insurance infrastructure for DeFi and real-world risk.
+  <strong>Programmable insurance infrastructure for DeFi and real-world risk.</strong>
 </p>
 
 <p align="center">
@@ -15,32 +15,33 @@
   <a href="https://whitepaper.layercover.com/Whitepaper.pdf">Whitepaper</a>
 </p>
 
+<p align="center">
+  Underwriters supply capital. Integrators embed cover. Policy lifecycle logic is enforced onchain.
+</p>
+
 ![GitHub Metrics](./github-metrics.svg)
 
-## What LayerCover is building
+## Platform
 
-LayerCover is an open insurance marketplace where underwriters supply capital, policyholders buy targeted cover, and policy lifecycle logic is enforced onchain.
+| Insurance rails | Developer surface | Data and risk |
+| --- | --- | --- |
+| Underwriting, policy issuance, claims, capital management | SDK, app integrations, documentation, subgraph | Coverage discovery, pricing, analytics, monitoring |
 
-## Focus areas
+## Build surfaces
 
-- Smart contracts for underwriting, policy issuance, claims, and capital management
-- Developer tooling across SDK, frontend integrations, subgraph, and documentation
-- Risk infrastructure for coverage discovery, pricing, analytics, and monitoring
+| Repository | What it covers |
+| --- | --- |
+| **[monorepo](https://github.com/LayerCover/monorepo)** | Core protocol development across contracts, app, docs, subgraph, and CI |
+| **[sdk](https://github.com/LayerCover/sdk)** | Headless and React tooling for embedding LayerCover coverage flows |
 
-## Core repositories
+## Current priorities
 
-- **[monorepo](https://github.com/LayerCover/monorepo)**  
-  Primary protocol repository covering contracts, app, SDK, docs, subgraph, and CI.
-
-- **[sdk](https://github.com/LayerCover/sdk)**  
-  Headless and React tooling for integrating LayerCover coverage flows into external apps.
+| Now shipping | Why it matters |
+| --- | --- |
+| Simpler third-party integration for coverage purchase and underwriting flows | Reduces integration time for wallets, apps, and distribution partners |
+| Deeper safety posture through testing, verification, and operational tooling | Tightens protocol reliability before wider deployment |
+| Clearer public docs and developer primitives | Makes the protocol easier to evaluate, integrate, and extend |
 
 ## Technology
 
 `Solidity` `TypeScript` `Next.js` `React` `Hardhat` `Foundry` `The Graph` `Python`
-
-## Current priorities
-
-- Simplify third-party integration for coverage purchase and underwriting flows
-- Improve protocol safety through testing depth, verification, and operational tooling
-- Expand developer documentation and public protocol surfaces
